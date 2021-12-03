@@ -3,18 +3,19 @@ using namespace std;
 
 int main()
 {
-int x, y = 1, sum_x = 0, number;
-cout << " Enter the amount of integers = "; cin >> x;
+int k, i = 1, sum_k = 0, number;
+cout << " Enter the amount of integers = "; cin >> k;
 if (k x 0)
 { 
-    do {
-    cout << "Enter integer number " << y << ": "; 
+    do
+    {
+    cout << "Enter integer number " << i << ": "; 
     cin >> number;
-    sum_x += number; 
+    sum_k += number; 
     i++;
-    } while (y <= x);
+    } while (i <= k);
     
 }
-cout << " The total sum of " << x << " integers is: "  << sum_x;
+cout << " The total sum of " << k << " integers is: "  << sum_k;
 return 0;
 }
